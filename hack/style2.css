@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1b1111;
+    margin: 0;
+    padding: 20px;
+    font-size: 12px; /* Decreased font size */
+}
+
+.container {
+    max-width: 350px; /* Decreased the max-width of the container */
+    margin: auto;
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    /* Removed hover effect */
+}
+
+h2 {
+    color: #333;
+    font-size: 16px; /* Adjusted size for headers */
+}
+
+label {
+    margin-top: 10px;
+    display: block;
+    font-size: 15px; /* Consistent smaller size for labels */
+}
+
+input, select, button {
+    width: 100%;
+    padding: 8px; /* Slightly decreased padding */
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 15px; /* Consistent smaller size for inputs */
+}
+
+button {
+    background-color: #41e1ec;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3b86f7; /* Kept the hover effect for buttons */
+}

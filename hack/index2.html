@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABHA Number Generator</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div class="container">
+        <h1>ABHA Number Generator</h1>
+        <form id="abhaForm">
+            <label for="userId">User ID (1-20 alphanumeric characters):</label>
+            <input type="text" id="userId" required>
+
+            <h2>KYC Method</h2>
+            <select id="kycMethod">
+                <option value="aadhaar_otp">Aadhaar OTP</option>
+                <option value="aadhaar_biometric">Aadhaar Biometric</option>
+                <option value="aadhaar_demographic">Aadhaar Demographic (offline)</option>
+                <option value="driving_license">Driving License</option>
+            </select>
+
+            <button type="submit">Generate ABHA Number</button>
+        </form>
+
+        <div id="result" class="hidden">
+            <h2>Generated ABHA Details</h2>
+            <p id="abhaNumber"></p>
+            <p id="abhaAddress"></p>
+            <button id="downloadCard">Download ABHA Card</button>
+        </div>
+    </div>
+
+    <script src="script2.js"></script>
+</body>
+</html>
